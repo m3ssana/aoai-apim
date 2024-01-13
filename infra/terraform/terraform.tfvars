@@ -1,0 +1,11 @@
+apiManagementServiceName = "apiservice-8133101417"
+resource_group_name      = "messana-rg"
+publisherEmail           = "example@example.com"
+publisherName            = "Example Name"
+sku                      = "Developer"
+skuCount                 = 1
+location                 = "resourceGroup().location"
+aoaiPrimaryAccount       = "primary-account"
+aoaiSecondaryAccount     = "secondary-account"
+aoaiPrimaryLLMDeployment = "primary-llm-deployment"
+aoaiSecondaryLLMDeployment = "secondary-llm-deployment"
